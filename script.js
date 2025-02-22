@@ -1,7 +1,7 @@
 var canzone1 = {
     titolo: "Il secondo secondo me",
     immagine_disco: "images/veritasupposte.jpg",
-    informazioni: "prende di mira una serie di luoghi comuni; inoltre tratta dei pregiudizi che si hanno contro altre persone.",
+    informazioni: "Prende di mira una serie di luoghi comuni; inoltre tratta dei pregiudizi che si hanno contro altre persone.",
     audio_canzone: "audio/alone.mp3",
     link: "https://youtu.be/10DIJs67ReI?feature=shared"
 };
@@ -21,33 +21,33 @@ var canzone3 = {
 };
 
 function info1() {
-    if(document.getElementById("infoc1").innerHTML == ""){
+    if (document.getElementById("infoc1").innerHTML == "") {
         document.getElementById("infoc1").innerHTML = canzone1["informazioni"];
     } else {
         document.getElementById("infoc1").innerHTML = "";
     }
 }
 function info2() {
-    if(document.getElementById("infoc2").innerHTML == ""){
+    if (document.getElementById("infoc2").innerHTML == "") {
         document.getElementById("infoc2").innerHTML = canzone2["informazioni"];
     } else {
         document.getElementById("infoc2").innerHTML = "";
     }
 }
 function info3() {
-    if(document.getElementById("infoc3").innerHTML == ""){
+    if (document.getElementById("infoc3").innerHTML == "") {
         document.getElementById("infoc3").innerHTML = canzone3["informazioni"];
     } else {
         document.getElementById("infoc3").innerHTML = "";
     }
 }
-    document.getElementById("titolo1").innerText = canzone1.titolo;
-    document.getElementById("titolo2").innerText = canzone2.titolo;
-    document.getElementById("titolo3").innerText = canzone3.titolo;
+document.getElementById("titolo1").innerText = canzone1.titolo;
+document.getElementById("titolo2").innerText = canzone2.titolo;
+document.getElementById("titolo3").innerText = canzone3.titolo;
 
-    document.getElementById("img1").src = canzone1.immagine_disco
-    document.getElementById("img2").src = canzone2.immagine_disco
-    document.getElementById("img3").src = canzone3.immagine_disco
+document.getElementById("img1").src = canzone1.immagine_disco
+document.getElementById("img2").src = canzone2.immagine_disco
+document.getElementById("img3").src = canzone3.immagine_disco
 
 function playAudio(canzone) {
     var audio = new Audio(canzone.audio_canzone);

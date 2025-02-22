@@ -1,8 +1,64 @@
-img{
-    width: 145px;
-    height: 145px;
+img {
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
 }
-.imgrande{
-    width: 800px;
-    height: 800px;
+
+.imgrande {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    display: block;
+    width: 170px;
+    height: 75px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 27pt;
+}
+
+.spazio {
+    padding-top: 25px;
+}
+
+.sfondo {
+    background-color: #D96846;
+}
+
+h1 {
+    color: #CDCBD6;
+    font-weight: bolder;
+    font-size: 40pt;
+}
+
+.play {
+    background-color: #2F3020;
+    border-color: #596235;
+    color: #596235;
+}
+
+.info {
+    background-color: #596235;
+    border-color: #2F3020;
+    color: #2F3020;
+}
+
+p {
+    color: #CDCBD6;
+    font-size: 25pt;
+}
+
+@media (max-width: 420px) {
+    button {
+        display: block;
+        width: 100%;
+        height: 100px;
+        font-size: 19pt;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
 }
