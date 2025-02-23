@@ -65,3 +65,7 @@ document.getElementById("play2").addEventListener("click", function () {
 document.getElementById("play3").addEventListener("click", function () {
     playAudio(canzone3);
 });
+
+document.getElementById("video1").src = canzone1.link;
+document.getElementById("video2").src = canzone2.link;
+document.getElementById("video3").src = canzone3.link;
